@@ -322,8 +322,8 @@ console.log(name, value);
                     <label htmlFor="diabetic" className="block text-teal-800 font-semibold mb-2">Diabietic:</label>
                     <select id="diabietic" name="diabietic" value={formData.diabietic} onChange={handleChange} className="w-full border border-teal-800 rounded-md p-2 h-12 bg-emerald-100">
                       <option value="">-- Choose--</option>
-                      <option value="yes">yes</option>
-                      <option value="no">no</option>
+                      <option value="Yes">yes</option>
+                      <option value="No">no</option>
                     </select>
                   </div>
                 </div>
